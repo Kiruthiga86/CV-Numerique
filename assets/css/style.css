@@ -1,0 +1,89 @@
+/* Général */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;;
+    margin: 0%;
+    background-image: linear-gradient(112.5deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 2%,rgba(231, 231, 231, 0.03) 2%, rgba(231, 231, 231, 0.03) 4%,rgba(231, 231, 231, 0.03) 4%, rgba(231, 231, 231, 0.03) 11%,rgba(2, 2, 2, 0.03) 11%, rgba(2, 2, 2, 0.03) 67%,rgba(231, 231, 231, 0.03) 67%, rgba(231, 231, 231, 0.03) 90%,rgba(111, 111, 111, 0.03) 90%, rgba(111, 111, 111, 0.03) 100%),linear-gradient(157.5deg, rgba(210, 210, 210, 0.03) 0%, rgba(210, 210, 210, 0.03) 17%,rgba(254, 254, 254, 0.03) 17%, rgba(254, 254, 254, 0.03) 18%,rgba(96, 96, 96, 0.03) 18%, rgba(96, 96, 96, 0.03) 44%,rgba(159, 159, 159, 0.03) 44%, rgba(159, 159, 159, 0.03) 70%,rgba(24, 24, 24, 0.03) 70%, rgba(24, 24, 24, 0.03) 82%,rgba(16, 16, 16, 0.03) 82%, rgba(16, 16, 16, 0.03) 100%),linear-gradient(22.5deg, rgba(47, 47, 47, 0.03) 0%, rgba(47, 47, 47, 0.03) 32%,rgba(124, 124, 124, 0.03) 32%, rgba(124, 124, 124, 0.03) 40%,rgba(200, 200, 200, 0.03) 40%, rgba(200, 200, 200, 0.03) 42%,rgba(16, 16, 16, 0.03) 42%, rgba(16, 16, 16, 0.03) 64%,rgba(243, 243, 243, 0.03) 64%, rgba(243, 243, 243, 0.03) 94%,rgba(93, 93, 93, 0.03) 94%, rgba(93, 93, 93, 0.03) 100%),linear-gradient(90deg, #ffffff,#ffffff);;
+}
+
+section{
+    padding: 20px;
+}
+
+h2{
+    color: #1a535c;
+    font-variant: small-caps;
+}
+#navbar{
+    background-color: #1a535c;
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+#navbar li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+#navbar a{
+    color: #f7fff7;
+    text-decoration: none;
+}
+
+/* Introduction */
+#introduction{
+    background-color: #1a535c;
+    color: #f7fff7;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Birthstone', cursive;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+#introduction a {
+    color: #4ecdc4;
+    font-size: normal;
+}
+
+    /* 
+    * Je sélectionne l'id picture et je lui donne une largeur.
+    *
+    */
+#picture{
+    border-radius: 25%;
+    width: 200px;
+}
+
+    /* padding: permet de supprimer le décalage causé par les puces et de supprimer la marge intérieur */
+#introduction ul{
+    padding-left: 0;
+}
+
+#introduction li{
+    list-style: none;
+}
+
+
+/* Education */
+.educationItem,
+.experienceItem{
+    background-color: rgba(145, 129, 138,0.2);
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.itemTitle{
+    font-weight: bold;
+}
+
+
+/* Skills */
+#skills li{
+    list-style: none;
+}
+    

@@ -1,0 +1,109 @@
+<!-- Le doctype est obligatoire, il permet de déclarer le type de document -->
+<!DOCTYPE html>
+<!-- lang et dir sont des indications pour le référencement Google -->
+<html lang="fr" dir="ltr">
+    <head>
+        <!--La meta charset permet d'afficher les caractères spéciaux -->
+        <meta charset="utf-8" />
+        <!-- Le title s'affiche au niveau du bandeau ou de l'onglet -->
+        <title> CV Numérique</title>
+
+        <!-- 
+            Le link permet de lier le css à l'html
+            rel="stylesheet" est obligatoire, sinon ça ne marche pas
+        --> 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat&display=swap" rel="stylesheet" />    
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="https://kit.fontawesome.com/8647d34487.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <section id="introduction">
+            <img src="assets/img/20190713_172340.jpg" alt="photo" id="picture" />
+            <h1>Kiruthiga ANNADURAI</h1>
+            <ul>
+                <li>Développeuse</li>
+                <li>35 ans</li>
+                <li>Permis B + Véhicule</li>
+            </ul>
+            <address>
+                <ul>
+                    <li>
+                        <i class="fas fa-mobile-alt"></i>
+                        <!-- Le tel: dans le href permet d'appeler en cliquant sur le lien -->
+                        <a href="tel:06 21 54 52 46" title="Numéro de téléphone">
+                           <!-- La balise telephone n'existe pas mais peut être utilisé en HTML5--> 
+                            <telephone>06 21 54 52 46</telephone>
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <!-- Le mailto: dans le href permet d'ouvrir le client de messagerie pour envoyer un mail -->
+                        <a href="mailto:kiru_annadurai@yahoo.fr" title="Adresse mail">
+                            <mail>kiru_annadurai@yahoo.fr</mail>
+                        </a>
+                    </li>
+                </ul>
+            </address>
+        </section>
+
+        <ul id="navbar">
+            <li><a href="#education">Formation</a></li>
+            <li><a href="#experience">Expérience Professionnelle</a></li>
+            <li><a href="#skills">Compétences</a></li>
+        </ul>
+
+
+        <section id="education">
+            <h2>Formations</h2>
+            <div class="educationItem">
+                <p class="itemTitle">Développeur Web et Web Mobile (Bac+2 - Niveau 5) - En cours</p>
+                <p> <i class="fas fa-calendar-alt"></i>&nbsp; 2021 - 2022</p>
+                <p><i class="fas fa-map-marker-alt"></i>&nbsp; La Manu, NOYON</p>
+            </div>
+            <div class="educationItem">
+                <p class="itemTitle">Master 2 Banque Finance Assurance - Obtenu</p>
+                <p><i class="fas fa-calendar-alt"></i>&nbsp; 2018</p>
+                <p><i class="fas fa-map-marker-alt"></i>&nbsp; Université Paris 13</p>
+            </div>
+        </section>
+
+
+        <section id="experience">
+            <h2>Expérience Professionnelle</h2>
+            <div class="experienceItem">
+                <p class="itemTitle">Consultante en Finance de Marché</p>
+                <p><i class="fas fa-calendar-alt"></i>&nbsp;2019 - 2020</p>
+                <p><i class="fas fa-map-marker-alt"></i>&nbsp;BNP Paribas CIB, PARIS</p>
+            </div>
+            <div class="experienceItem">
+                <p class="itemTitle">Gestionnaire Back Office</p>
+                <p><i class="fas fa-calendar-alt"></i>&nbsp;2019</p>
+                <p><i class="fas fa-map-marker-alt"></i>&nbsp;Euroclear France, PARIS</p>
+            </div>
+            <div class="experienceItem">
+                <p class="itemTitle">Chargée d'affaire professionnels</p>
+                <p><i class="fas fa-calendar-alt"></i>&nbsp;2016 - 2018</p>
+                <p><i class="fas fa-map-marker-alt"></i>&nbsp;BNP Paribas, PARIS</p>  
+            </div>
+        </section>
+
+
+        <section id="skills">
+            <h2>Compétences</h2>
+            <h3>Langanges</h3>
+            <ul>
+                <li>HTML <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></li>
+                <li>CSS <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></li>
+            </ul>
+            <h3>Outils</h3>
+            <ul>
+                <li>GIT / Github</li>
+            </ul>
+        </section>
+
+    </body>
+</html>
